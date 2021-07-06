@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.h1-color {
+    color: chocolate;
+}
+
+.flaxible-container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.container-width {
+    width: 45%;
+    padding-left: 5%;
+    margin-top: 1.5em;
+
+}
+
+.container-width img {
+    width: 90%;
+    margin-left: 3em;
+
+}
+
+.button-click {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(218, 44, 1));
+    padding: 15px 30px;
+    color: cornsilk;
+    border-radius: 25px;
+}
+
+.paragraph {
+    padding-right: 10em;
+    padding-bottom: 4em;
+}
+
+#p-color {
+    color: rgb(97, 95, 95);
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(69, 78, 72);
+}
+
+.background {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: bold;
+
+
+}
+
+.img-size {
+    height: 470px;
+}
+
+.recipies {
+    text-align: center;
+    padding: 20px 20em;
+    font: bold;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+.food-menu {
+    width: 20%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(207, 192, 200);
+    flex-basis: 25%;
+
+
+}
+
+.food-menu img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box-2 {
+    display: flex;
+    box-shadow: 10px 10px 25px gray;
+    width: 95%;
+    padding: 10px;
+    margin-left: 25px;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+.row img {
+    width: 50%;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 50%;
+    max-width: 500px;
+
+}
+
+.row {
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(37, 34, 37);
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+}
